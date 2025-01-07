@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
-import re
-import sklearn
+import re 
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.feature_extraction.text import TfidfVectorizer
